@@ -1,0 +1,24 @@
+# Claude — wygaszacze ekranu
+
+Dwa wygaszacze ekranu dla Windows z pikselowym Claude'em.
+
+| Wygaszacz | Co się dzieje |
+|---|---|
+| **Claude** (`claude_wygaszacz.scr`) | Claude wędruje po całym ekranie. Sam wybiera drogę, która się nie powtarza. Czasem przystanie, rozejrzy się, zatańczy albo podskoczy. |
+| **Claude i Totem** (`claude_i_totem.scr`) | Na środku siedzi totem BlastPDF, a Claude krąży wokół niego i się z nim drażni. Tańczy mu przed nosem, pokazuje język, wskakuje mu na głowę, chowa się za nim. Czasem go kopnie i ucieka w kąt. Totem się wtedy kołysze. |
+
+## Jak zainstalować
+
+1. Pobierz paczkę `.zip` z zakładki **Releases** (po prawej stronie).
+2. Rozpakuj ją.
+3. Kliknij plik `.scr` prawym przyciskiem myszy i wybierz **Zainstaluj**.
+
+Dwuklik na pliku `.scr` uruchamia wygaszacz od razu. Ruch myszy albo dowolny klawisz go zamyka.
+
+**Ostrzeżenie Windows:** plik nie ma płatnego podpisu cyfrowego, więc Windows może pokazać okno „System Windows ochronił ten komputer”. Żeby uruchomić wygaszacz, kliknij **Więcej informacji**, a potem **Uruchom mimo to**.
+
+## Z czego to jest zrobione
+
+Animacja to strona HTML, a do pliku `.scr` pakuje ją pywebview z PyInstallerem. W paczce jest też plik `.html`, który działa w każdej przeglądarce i nic nie trzeba instalować.
+
+Autorzy: Piotrek (pomysł) i Claude (kod), 2026.
